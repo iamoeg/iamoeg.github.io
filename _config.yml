@@ -1,0 +1,18 @@
+# Site settings
+title: iamoeg
+author: "Oussama EL GHANNAMI"
+description: "Just a nerd doing nerdy things 🤖"
+baseurl: /
+url: https://iamoeg.github.io
+
+# Social links
+linkedin_username: iamoeg
+github_username: iamoeg
+mastodon:
+  - { username: iamoeg, instance: mastodon.social }
+rss: RSS
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
