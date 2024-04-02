@@ -52,7 +52,7 @@ However, I also discovered that I'm interested in much lower-level technologies 
 In terms of programming style, I tend to favor simplicity above all else. Experience in other fields has taught me that solutions that are too clever rarely succeed at solving any real problems on the long run, but come at the price of unnecessary complexity that often limits your ability to adapt to changing circumstances or evolving requirements. But keeping things simple requires effort, and I'll admit that telling a sane solution apart from an overly complicated one, or a good from a bad abstraction, isn't always obvious. As a result, I generally approach problems by following a few principles:
 
 - I avoid over-engineering solutions by only solving the problem at hand, not hypothetical ones
-- I fight certain abstractions (especially if they entail [multiple layers of class inheritance](https://www.codemag.com/Article/0002081/Some-Pitfalls-of-Inheritance)) until absolutely necessary
+- I fight certain abstractions (especially if they entail [multiple layers of class inheritance](https://www.codemag.com/Article/0002081/Some-Pitfalls-of-Inheritance)) unless absolutely necessary
 - I let myself _discover_ emerging abstractions rather than _invent_ ones
 - I try to keep my projects' external dependencies to a minimum
 
@@ -78,7 +78,7 @@ First, there's fundamental knowledge and a few core technologies that I think ar
 - Networking
 - System design
 - Compilers and interpreters
-- And at least some knowledge of cyber-security, data science, artificial intelligence
+- And at least some knowledge of cyber-security, data science, and artificial intelligence
 
 Therefore, I'll be studying these in small chunks over time, focusing on slow but steady progress rather than velocity. This way, I can bring theoretical understanding together with practical applications through real-world experience and projects, thus better cementing my comprehension of these topics.
 
@@ -112,7 +112,7 @@ Again, with more experience and a better understanding of memory, I'd like to mo
 
 In the same manner, I'd like to learn a language like Haskell as a proxy to the purely functional paradigm (emphasis on _purely_). The rationale here is that programming paradigms are essentially different ways to represent and solve computing problems, with certain paradigms being better suited for certain classes of problems. Which is why I'd like to gain exposure to functional programming and be able to understand how software is built in pure functions with no side effects, and… what the hell is a monad?!
 
-## Parting Toughts
+## Parting Thoughts
 
 Sure, one can never know what the future holds: even the best, most detailed plans get derailed eventually. But my journey is long and my destination far away, and I hope this high-level roadmap will keep me on track, or at least help me maintain the right direction despite the likely detours and rabbit holes along the way.
 
