@@ -52,7 +52,7 @@ However, I also discovered that I'm interested in much lower-level technologies 
 In terms of programming style, I tend to favor simplicity above all else. Experience in other fields has taught me that solutions that are too clever rarely succeed at solving any real problems on the long run, but come at the price of unnecessary complexity that often limits your ability to adapt to changing circumstances or evolving requirements. But keeping things simple requires effort, and I'll admit that telling a sane solution apart from an overly complicated one, or a good from a bad abstraction, isn't always obvious. As a result, I generally approach problems by following a few principles:
 
 - I avoid over-engineering solutions by only solving the problem at hand, not hypothetical ones
-- I fight certain abstractions (especially if they entail [multiple layers of class inheritance](https://www.codemag.com/Article/0002081/Some-Pitfalls-of-Inheritance)) unless absolutely necessary
+- I fight certain abstractions (especially if they entail [multiple layers of class inheritance](https://www.codemag.com/Article/0002081/Some-Pitfalls-of-Inheritance)) until they become absolutely necessary
 - I let myself _discover_ emerging abstractions rather than _invent_ ones
 - I try to keep my projects' external dependencies to a minimum
 
