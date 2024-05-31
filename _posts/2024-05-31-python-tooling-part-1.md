@@ -9,7 +9,7 @@ To help with this issue, I decided to make my own (not so short) list of tools a
 
 ## A quick tour of Python
 
-![import antigravity](/assets/img/python-antigravity.png)
+![import antigravity](/assets/img/python-antigravity.png)<br/>
 Source: [xkcd](https://xkcd.com/353/)
 
 [Python](https://www.python.org/) is an _open source_, community-driven programming language. The main governing body that supports the development of the language itself, its community, as well as most of the infrastructure around them, is the [Python Software Foundation (PSF)](https://www.python.org/psf-landing/). The development of the language is conducted through _[Python Enhancement Proposals (PEPs)](https://peps.python.org/)_, which define Python's features and specification, document design decisions, and collect community input on important issues. The main implementation of the language is [CPython](https://github.com/python/cpython/), which as the name suggests is written in the C programming language, but there are many other Python implementations serving different purposes: to cite a few, there is the [MicroPython](https://micropython.org/) interpreter targeting micro-controllers and other constrained environments, [PyPy](https://www.pypy.org/) which makes use of just-in-time (JIT) compilation for better performance, [Jython](https://www.jython.org/) which runs on top of the Java Virtual Machine (JVM), and most recently [RustPython](https://rustpython.github.io/).
@@ -68,5 +68,5 @@ Wow! This blog post turned out to be longer than expected even with just a few t
 
 Thanks for reading!
 
-Sincerely,
+Sincerely,<br/>
 Oussama
