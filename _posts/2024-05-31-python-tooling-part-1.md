@@ -3,15 +3,13 @@ title: "Python Tooling for the Busy Programmer (Part 1) 🔧"
 date: 2024-05-31
 ---
 
-# Python Tooling for the Busy Programmer (Part 1) 🔧
-
 Python is one of the most popular programming languages in the world thanks to its expressive syntax, rich standard library, and friendly community, which make it pretty versatile and useful for a wide variety of applications and use-cases – from simple scripting and automation, to web development, to data science and artificial intelligence, to cyber-security, and much more... This means there is a large ecosystem of tools and libraries that solve many different problems for developers as well as end-users. However, the size of the ecosystem also leads to more difficulty for novice programmers to find their way around.
 
 To help with this issue, I decided to make my own (not so short) list of tools and packages that I find useful in my day-to-day programming with Python. I chose to focus this list on software that helps with setting up a development environment, managing and building Python projects, enhancing code quality, and boosting productivity and workflow efficiency. As a result, it doesn't include packages that would normally be considered a direct dependency to build the core functionality of any given piece of software (like web frameworks for example), as I think those depend very much on the requirements of each individual project. Before we dive in, let me quickly introduce the language and its ecosystem to the complete beginners that might be reading this…
 
 ## A quick tour of Python
 
-![import antigravity](img/python-antigravity.png)
+![import antigravity](/assets/img/python-antigravity.png)
 Source: [xkcd](https://xkcd.com/353/)
 
 [Python](https://www.python.org/) is an _open source_, community-driven programming language. The main governing body that supports the development of the language itself, its community, as well as most of the infrastructure around them, is the [Python Software Foundation (PSF)](https://www.python.org/psf-landing/). The development of the language is conducted through _[Python Enhancement Proposals (PEPs)](https://peps.python.org/)_, which define Python's features and specification, document design decisions, and collect community input on important issues. The main implementation of the language is [CPython](https://github.com/python/cpython/), which as the name suggests is written in the C programming language, but there are many other Python implementations serving different purposes: to cite a few, there is the [MicroPython](https://micropython.org/) interpreter targeting micro-controllers and other constrained environments, [PyPy](https://www.pypy.org/) which makes use of just-in-time (JIT) compilation for better performance, [Jython](https://www.jython.org/) which runs on top of the Java Virtual Machine (JVM), and most recently [RustPython](https://rustpython.github.io/).
@@ -36,7 +34,7 @@ Now what if you're not really interested in doing any Python development yoursel
 
 To that end, it's better to use [`pipx`](https://pipx.pypa.io/stable/) as a package manager in place of `pip`, with pretty much the same set of commands you can use with both tools. The difference, though, is that `pipx` automatically creates a virtual environment where the application and its dependencies are installed independently of the reset of your system, then adds a symbolic link to the application on your `$PATH`. This way, you can install, use and update your Python applications without worrying about where they're installed or about managing dependencies. One such tool you might enjoy if you like playing with databases is [`halequin`](https://github.com/tconbeer/harlequin), a terminal-based SQL IDE. Another one might be [`sherlock`](https://github.com/sherlock-project/sherlock), a tool to hunt down accounts by username across social networks – just don't insult the developers please!
 
-![Smelly nerds.](img/smelly-nerds.png)
+![Smelly nerds.](/assets/img/smelly-nerds.png)
 Source: Reddit
 
 ### Managing dependencies and virtual environments with `uv`
@@ -57,7 +55,7 @@ In Python, these type declarations are called "type hints" and it's important to
 
 Now that you see the benefits of type annotations, you might want to take things further and validate data that flows through your application at runtime. To do this, you would normally have to include a lot of checks and guard clauses, perform data conversions, and handle exceptions related to typing where appropriate in your codebase – which honestly no one likes to do as it can add a lot of clutter to your logic. But fear not, because this is where [`pydantic`](https://docs.pydantic.dev/latest/) shines! It uses the standard type hinting syntax to validate data against a schema you can define in a [DataClass](https://docs.python.org/3/library/dataclasses.html), [TypedDict](https://typing.readthedocs.io/en/latest/spec/typeddict.html) or otherwise. You can even define your own validators to customize the validation behavior to your specific needs. `pydantic` can also serialize data to other formats and produce a JSON Schema to easily integrate with other tools. Plus, it too is written in Rust... so do I really need to say it?!
 
-![Rust mentioned!](img/blazingly-fast.png)
+![Rust mentioned!](/assets/img/blazingly-fast.png)
 Source: Reddit
 
 ### Performing security checks with `bandit`
